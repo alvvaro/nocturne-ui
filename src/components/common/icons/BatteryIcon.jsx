@@ -25,7 +25,6 @@ const BatteryIcon = ({ percentage = 100, className }) => {
               fontSize="10"
               fontWeight="600"
               fill="black"
-              fontFamily="var(--font-inter)"
             >
               {percentage}
             </text>
@@ -42,7 +41,6 @@ const BatteryIcon = ({ percentage = 100, className }) => {
               fontSize="10"
               fontWeight="600"
               fill="white"
-              fontFamily="var(--font-inter)"
             >
               {percentage}
             </text>

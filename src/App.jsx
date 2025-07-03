@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import FontLoader from "./components/common/FontLoader";
 import AuthContainer from "./components/auth/AuthContainer";
 import NetworkScreen from "./components/auth/NetworkScreen";
 import Tutorial from "./components/tutorial/Tutorial";
@@ -682,13 +681,8 @@ function App() {
           <NetworkContext.Provider value={networkContextValue}>
             <ConnectorContext.Provider value={connectorContextValue}>
               <Router>
-                <FontLoader />
                 <main
                   className="overflow-hidden relative min-h-screen rounded-2xl"
-                  style={{
-                    fontFamily: `var(--font-inter), var(--font-noto-sans-sc), var(--font-noto-sans-tc), var(--font-noto-serif-jp), var(--font-noto-sans-kr), var(--font-noto-naskh-ar), var(--font-noto-sans-bn), var(--font-noto-sans-dv), var(--font-noto-sans-he), var(--font-noto-sans-ta), var(--font-noto-sans-th), var(--font-noto-sans-gk), system-ui, sans-serif`,
-                    fontOpticalSizing: "auto",
-                  }}
                 >
                   <GradientBackground gradientState={gradientState} className="bg-black" />
 
