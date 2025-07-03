@@ -5,6 +5,18 @@ export default {
     extend: {
       fontFamily: {
         sans: [
+          "Inter Variable",
+          "Noto Sans SC Variable",
+          "Noto Sans TC Variable",
+          "Noto Serif JP Variable",
+          "Noto Sans KR Variable",
+          "Noto Naskh Arabic Variable",
+          "Noto Sans Devanagari Variable",
+          "Noto Sans Bengali Variable",
+          "Noto Sans Hebrew Variable",
+          "Noto Sans Tamil Variable",
+          "Noto Sans Thai Variable",
+          "Noto Sans Gurmukhi Variable",
           "system-ui",
           "-apple-system",
           "BlinkMacSystemFont",
@@ -14,14 +26,6 @@ export default {
           "Arial",
           "sans-serif",
         ],
-      },
-      letterSpacing: {
-        tighter: "-0.05em",
-        tight: "-0.05em",
-        normal: "0",
-        wide: "0.025em",
-        wider: "0.05em",
-        widest: "0.1em",
       },
     },
   },
